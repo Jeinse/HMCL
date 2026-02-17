@@ -532,6 +532,7 @@
 }
 
 .jfx-layout-heading {
+    -fx-font-weight: BOLD;
     -fx-font-size: 20.0px;
     -fx-alignment: center-left;
     -fx-padding: 5.0 0.0 5.0 0.0;
@@ -1047,6 +1048,13 @@
     -fx-background-color: -monet-surface-container-low-transparent-80;
     -fx-background-radius: 4;
     -fx-padding: 8px;
+
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.26), 10, 0.12, -1, 2);
+}
+
+.card-no-padding {
+    -fx-background-color: -monet-surface-container-low-transparent-80;
+    -fx-background-radius: 4;
 
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.26), 10, 0.12, -1, 2);
 }
